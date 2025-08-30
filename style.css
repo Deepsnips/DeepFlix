@@ -25,5 +25,14 @@ body{
 .sidebar{
     width: 200px;
     height: 100%;
-    background-color: var(--nav-color);
+
+}
+
+.sidebar .sidebar-nav ul{
+    list-style: none;
+
+}
+.lis{
+    list-style: none;
+    margin-bottom: 20px;
 }
