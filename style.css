@@ -30,9 +30,32 @@ body{
 
 .sidebar .sidebar-nav ul{
     list-style: none;
+    padding:0px;
 
 }
 .lis{
     list-style: none;
     margin-bottom: 20px;
+    
+}
+.lis a{
+   text-decoration: none;
+   color:var(--text-seconadary);
+}
+.lis a.active{
+    color:var(--nav-color);
+    border-left:2px solid #d91f45;
+}
+.lis a:hover{
+    color:var(--nav-color);
+}
+header nav ul{
+    display:inline-flex;
+    gap: 15px;
+}
+.input-search input{
+    border:0px;
+    background-color: transparent;
+    color: aliceblue;
+
 }
