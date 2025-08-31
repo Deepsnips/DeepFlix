@@ -52,10 +52,17 @@ body{
 header nav ul{
     display:inline-flex;
     gap: 15px;
+    align-items: center;
 }
 .input-search input{
     border:0px;
     background-color: transparent;
     color: aliceblue;
 
+}
+.input-search{
+    border:1px solid var(--text-seconadary);
+    padding:10px 14px;
+    border-radius: 25px;
+    width: 350px;
 }
